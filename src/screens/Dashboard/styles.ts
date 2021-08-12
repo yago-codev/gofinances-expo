@@ -17,6 +17,7 @@ export const UserWrapper = styled.View`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin-top: ${RFValue(56)}px;
   padding: 0 ${RFValue(24)}px;
 `
 
@@ -50,4 +51,11 @@ export const UserName = styled.Text`
 export const IconPower = styled(Feather)`
   font-size: ${RFValue(24)}px;
   color: ${({ theme }) => theme.colors.secondary};
+`
+
+export const HighlightCards = styled.ScrollView.attrs({
+  horizontal: true,
+  showsHorizontalScrollIndicator: false,
+  contentContainerStyle: { paddingLeft: RFValue(24) }
+})`
 `
