@@ -26,11 +26,11 @@ export function Dashboard() {
           <S.IconPower name="power" />
         </S.UserWrapper>
       </S.Header>
-        <S.HighlightCards>
-          <HighlightCard />
-          <HighlightCard />
-          <HighlightCard />
-        </S.HighlightCards>
+      <S.HighlightCards>
+        <HighlightCard />
+        <HighlightCard />
+        <HighlightCard />
+      </S.HighlightCards>
     </S.Container>
   )
 }
