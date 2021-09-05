@@ -24,5 +24,8 @@ export const Title = styled.Text`
 export const Form = styled.View`
   width: 100%;
   flex: 1;
+  justify-content: space-between;
   padding: ${RFValue(24)}px;
 `
+
+export const Fields = styled.View``
