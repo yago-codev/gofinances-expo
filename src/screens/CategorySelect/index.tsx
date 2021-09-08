@@ -1,7 +1,8 @@
 import React from 'react'
+import { Modal } from 'react-native'
 import { FlatList } from 'react-native-gesture-handler'
 
-import { Button } from '../../components/Button'
+import { Button } from '../../components/Form/Button'
 
 import { categories } from '../../utils/categories'
 

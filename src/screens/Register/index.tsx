@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 
 import { Input } from '../../components/Form/Input'
-import { Button } from '../../components/Button'
+import { Button } from '../../components/Form/Button'
 import { TransactionTypeButton } from '../../components/Form/TransactionTypeButton'
-import { Category } from '../../components/Category'
+import { CategorySelectButton } from '../../components/Form/CategorySelectButton'
 
 import * as S from './styles'
 
@@ -39,7 +39,7 @@ export function Register() {
               isActive={transactionType === 'down'}
             />
           </S.TransactionsTypes>
-          <Category title="Categoria" />
+          <CategorySelectButton title="Categoria" />
         </S.Fields>
         <Button title="Enviar" />
       </S.Form>
